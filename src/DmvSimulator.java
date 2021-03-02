@@ -8,8 +8,8 @@ public class DmvSimulator {
 	
 	public static void main(String[] args) {
 		
-		int min = 1;
-		int max = 100;
+		int min = 100;
+		int max = 200;
 		int spotNumber = GetRandomSpot(min,max);
 		
 		System.out.println("Welcome to the DMV! Let me get your spot number, please hold.");
@@ -23,7 +23,7 @@ public class DmvSimulator {
 			NumberAfterSpot += 1;
 		}
 		System.out.println("Spot Number: " + (NumberAfterSpot));
-		if (NumberAfterSpot == 100) {
+		if (NumberAfterSpot == 200) {
 			while (reCount <= spotNumber) {
 				System.out.println("Spot Number: " + (reCount));
 				reCount += 1;
