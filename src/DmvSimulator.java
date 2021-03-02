@@ -23,7 +23,7 @@ public class DmvSimulator {
 			NumberAfterSpot += 1;
 		}
 		System.out.println("Spot Number: " + (NumberAfterSpot));
-		if (NumberAfterSpot == 100) {
+		if (NumberAfterSpot == 200) {
 			while (reCount <= spotNumber) {
 				System.out.println("Spot Number: " + (reCount));
 				reCount += 1;
