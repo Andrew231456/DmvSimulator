@@ -8,8 +8,8 @@ public class DmvSimulator {
 	
 	public static void main(String[] args) {
 		
-		int min = 1;
-		int max = 100;
+		int min = 100;
+		int max = 200;
 		int spotNumber = GetRandomSpot(min,max);
 		
 		System.out.println("Welcome to the DMV! Let me get your spot number, please hold.");
