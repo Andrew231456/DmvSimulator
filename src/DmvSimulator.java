@@ -30,7 +30,7 @@ public class DmvSimulator {
 				
 				if (reCount == spotNumber - 1) {
 					System.out.println("Spot Number: " + (reCount));
-					System.out.println("Spot number [" + spotNumber + "] you do NOT have the right paperwork!  DO NOT come back until you have the required paperwork!!!");
+					System.out.println("Spot number [" + spotNumber + "] you do NOT have the right paperwork!  DO NOT come back until you have the required paperwork!!! MUAHAHAHAHAH!");
 					System.exit(0);
 				}
 			}
