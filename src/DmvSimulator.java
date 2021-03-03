@@ -28,8 +28,7 @@ public class DmvSimulator {
 				System.out.println("Spot Number: " + (reCount));
 				reCount += 1;
 				
-				if (reCount == spotNumber - 1) {
-					
+				if (reCount == spotNumber - 1) {			
 					int percentage = GetRandomNumber(1,100);
 					if (percentage == 1) {
 						System.out.println("Spot Number: " + (reCount));
@@ -40,7 +39,6 @@ public class DmvSimulator {
 						System.out.println("Spot number [" + spotNumber + "] you do NOT have the right paperwork!  DO NOT come back until you have the required paperwork!");
 						System.exit(0);
 					}
-					
 				}
 			}
 		}
